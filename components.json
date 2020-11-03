@@ -1,0 +1,8 @@
+{
+  "loading": "./packages/loading/index.js",
+  "infinite-scroll": "./packages/infinite-scroll/index.js",
+  "message": "./packages/message/index.js",
+  "message-box": "./packages/message-box/index.js",
+  "notification": "./packages/notification/index.js",
+  "outline": "./packages/outline/index.js"
+}
