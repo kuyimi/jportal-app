@@ -1,4 +1,4 @@
-import { JaOutline } from "./outline"
+import { JaButton } from "./button";
 
-/** Outline Component */
-export class Outline extends JaOutline {}
+/** Button Component */
+export class Button extends JaButton {}

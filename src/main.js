@@ -2,8 +2,8 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-// import JportalApp from "./index";
-// Vue.use(JportalApp);
+import JportalApp from "./index";
+Vue.use(JportalApp);
 Vue.config.productionTip = false;
 new Vue({
   router,

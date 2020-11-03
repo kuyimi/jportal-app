@@ -5,10 +5,27 @@ import InfiniteScroll from "../packages/infinite-scroll/index.js";
 import Message from "../packages/message/index.js";
 import MessageBox from "../packages/message-box/index.js";
 import Notification from "../packages/notification/index.js";
+import Button from "../packages/button/index.js";
+import Menu from "../packages/menu/index.js";
+import Submenu from "../packages/submenu/index.js";
+import MenuItem from "../packages/menu-item/index.js";
+import MenuItemGroup from "../packages/menu-item-group/index.js";
 import Outline from "../packages/outline/index.js";
+import Suboutline from "../packages/suboutline/index.js";
+import OutlineItem from "../packages/outline-item/index.js";
 import locale from "element-ui/src/locale";
 import CollapseTransition from "element-ui/src/transitions/collapse-transition";
-const components = [Outline, CollapseTransition];
+const components = [
+  Button,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Outline,
+  Suboutline,
+  OutlineItem,
+  CollapseTransition
+];
 const install = function(Vue, opts = {}) {
   locale.use(opts.locale);
   locale.i18n(opts.i18n);
@@ -44,5 +61,12 @@ export default {
   Message,
   MessageBox,
   Notification,
-  Outline
+  Button,
+  Menu,
+  Submenu,
+  MenuItem,
+  MenuItemGroup,
+  Outline,
+  Suboutline,
+  OutlineItem
 };
