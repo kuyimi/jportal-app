@@ -10,6 +10,5 @@
   "menu-item": "./packages/menu-item/index.js",
   "menu-item-group": "./packages/menu-item-group/index.js",
   "outline": "./packages/outline/index.js",
-  "suboutline": "./packages/suboutline/index.js",
-  "outline-item": "./packages/outline-item/index.js"
+  "suboutline": "./packages/suboutline/index.js"
 }

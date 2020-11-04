@@ -12,7 +12,6 @@ import MenuItem from "../packages/menu-item/index.js";
 import MenuItemGroup from "../packages/menu-item-group/index.js";
 import Outline from "../packages/outline/index.js";
 import Suboutline from "../packages/suboutline/index.js";
-import OutlineItem from "../packages/outline-item/index.js";
 import locale from "element-ui/src/locale";
 import CollapseTransition from "element-ui/src/transitions/collapse-transition";
 const components = [
@@ -23,7 +22,6 @@ const components = [
   MenuItemGroup,
   Outline,
   Suboutline,
-  OutlineItem,
   CollapseTransition
 ];
 const install = function(Vue, opts = {}) {
@@ -67,6 +65,5 @@ export default {
   MenuItem,
   MenuItemGroup,
   Outline,
-  Suboutline,
-  OutlineItem
+  Suboutline
 };

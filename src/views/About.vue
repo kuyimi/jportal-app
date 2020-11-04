@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" style="width: 200px;">
     <ja-outline :data="data" />
   </div>
 </template>
@@ -11,31 +11,60 @@ export default {
     };
   },
   created() {
-    this.data = [
-      {
-        title: "测试1",
-        icon: {
-          name: "el-icon-menu"
-        }
-      },
-      {
-        title: "测试2"
-      },
-      {
-        title: "测试3",
-        icon: {
-          name: "el-icon-menu"
-        },
-        children: [
-          {
-            title: "测试3.1",
-            icon: {
-              name: "el-icon-menu"
-            }
+    this.data = {
+      items: [
+        {
+          uid: "1",
+          title: "测试1",
+          icon: {
+            name: "el-icon-menu"
           }
-        ]
-      }
-    ];
+        },
+        {
+          uid: "2",
+          title: "测试2"
+        },
+        {
+          uid: "3",
+          title: "测试3",
+          icon: {
+            name: "el-icon-menu"
+          },
+          children: [
+            {
+              uid: "3.1",
+              title: "测试3.1",
+              icon: {
+                name: "el-icon-menu"
+              }
+            },
+            {
+              uid: "3.2",
+              title: "测试3.2",
+              icon: {
+                name: "el-icon-menu"
+              },
+              children: [
+                {
+                  uid: "3.2.1",
+                  title: "测试3.2.1",
+                  icon: {
+                    name: "el-icon-menu"
+                  }
+                },
+                {
+                  uid: "3.2.2",
+                  title: "测试3.2.2",
+                  icon: {
+                    name: "el-icon-menu"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    };
   }
 };
 </script>
