@@ -1,0 +1,2 @@
+text eol=lf
+test/**/*.js linguist-language=Vue
